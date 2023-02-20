@@ -1,0 +1,39 @@
+@import "rsuite/dist/rsuite.css";
+
+#root{ padding: 10px; }
+
+.rs-table-cell-divider {
+    display: none !important;
+  }
+
+  .rs-table-cell {
+    border: none !important;
+  }
+
+  .rs-input-group:hover,
+  .rs-input:hover {
+    border-color: #d9d9d9 !important;
+  }
+
+  .search-input {
+    border-color: #d9d9d9;
+  }
+  
+  .rs-input:focus,
+  .rs-input-group:focus-within {
+    box-shadow: none !important;
+    border-color: #d9d9d9 !important;
+  }
+
+  .icon-button:hover {
+    color: white !important;
+  } 
+  
+  .pagination-wrapper .rs-pagination-btn:first-child,
+  .pagination-wrapper .rs-pagination-btn:nth-child(2),
+  .pagination-wrapper .rs-pagination-btn:nth-last-child(2),
+  .pagination-wrapper .rs-pagination-btn:last-child {
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 3px 10px;
+  }
